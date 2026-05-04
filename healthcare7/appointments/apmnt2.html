@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aware Global Hospital - Appointment Booking</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #007bff;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Hospital Info */
+        .hospital-info, .doctor-info, .appointment-info {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Appointment Form */
+        .appointment-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-size: 1.1em;
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .form-group button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            font-size: 1em;
+            color: #777;
+            margin-top: 40px;
+        }
+
+        /* Map Section */
+        .map-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        iframe.map-frame {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Aware Global Hospital</h1>
+            <p>Located at L.B. Nagar, Hyderabad, India</p>
+        </header>
+
+        <section class="hospital-info">
+            <h2>About the Hospital</h2>
+            <p>Aware Global Hospital is a 300-bed multi-specialty hospital offering services in trauma, emergency, gastroenterology, cardiology, neurology, nephrology, and oncology. The hospital is equipped with state-of-the-art facilities and experienced medical staff, providing top-notch healthcare services to the community in L.B. Nagar and surrounding areas.</p>
+            <p>Address: L.B. Nagar, Hyderabad, India</p>
+        </section>
+
+        <section class="doctor-info">
+            <h2>Meet Our Doctors</h2>
+            <p>Our hospital is staffed by experienced doctors specializing in various fields such as trauma, cardiology, neurology, and more. We are committed to delivering quality healthcare with compassion.</p>
+        </section>
+
+        <section class="appointment-info">
+            <h2>Book an Appointment</h2>
+
+            <div class="appointment-form">
+                <form id="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Appointment Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Book Appointment</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="location-info">
+            <h2>Our Location</h2>
+            <p>Find us on the map below:</p>
+            <a href="https://www.google.com/maps/place/Gleneagles+AWARE+Hospital,+LB+Nagar,+Hyderabad/@17.3459452,78.5399442,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb9898fd5a1ca3:0xe729e2cca4d0296d!8m2!3d17.3459452!4d78.5399442!16s%2Fm%2F0h_cyl0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+                Click here to view Aware Global Hospital on Google Maps
+            </a>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Aware Global Hospital. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("appointment-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const date = document.getElementById("date").value;
+            const time = document.getElementById("time").value;
+
+            alert(`Appointment booked successfully for ${name}.\nDate: ${date}\nTime: ${time}\nEmail: ${email}\nPhone: ${phone}`);
+        });
+    </script>
+</body>
+</html>

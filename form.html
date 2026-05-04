@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cognitive Wellness - Login</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>LOGIN</h1>
+    
+    <form action="/login" method="post">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <div style="position: relative;">
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+          <span id="togglePassword" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+            👁️
+          </span>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button type="button" class="btn btn-login" onclick="handlelogin()">Login</button>
+        <button type="button" class="btn btn-register" onclick="redirectToRegister()">Create Account</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function redirectToRegister() {
+      window.location.href = "register.html";
+    }
+
+    async function handlelogin() {
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+  
+      try {
+        const response = await fetch('/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email, password }),
+        });
+  
+        const data = await response.json();
+  
+        if (data.success) {
+          alert("Login successful!");
+          window.location.href = data.redirect || "/healthcare7/index.html";
+        } else {
+          alert(data.message || "Login failed. Please try again.");
+        }
+      } catch (err) {
+        console.error('Error during login:', err);
+        alert("An error occurred while logging in. Please try again later.");
+      }
+    }
+
+    // Toggle password visibility
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordField = document.getElementById('password');
+
+    togglePassword.addEventListener('click', () => {
+      const type = passwordField.type === 'password' ? 'text' : 'password';
+      passwordField.type = type;
+
+      // Change the eye symbol based on visibility
+      togglePassword.textContent = type === 'password' ? '👁️' : '🙈';
+    });
+  </script>
+</body>
+
+</html>

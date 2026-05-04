@@ -1,0 +1,1547 @@
+{
+  "health_conditions": [
+    {
+      "category": "Physical Health",
+      "conditions": [
+        {
+          "name": "Common Cold",
+          "description": "The common cold is a viral infection that affects the upper respiratory tract, causing symptoms like a runny nose, cough, and sore throat.",
+          "symptoms": [
+            "Runny nose",
+            "Sneezing",
+            "Cough",
+            "Sore throat",
+            "Fatigue",
+            "Cold"
+          ],
+          "treatments": [
+            "Rest",
+            "Hydration",
+            "Over-the-counter medications (e.g., decongestants, pain relievers)",
+            "Warm fluids"
+          ],
+         "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+        },
+        {
+          "name": "Arthritis",
+          "description": "Arthritis is inflammation of one or more joints, causing pain and stiffness.",
+          "symptoms": [
+            "Joint pain",
+            "Swelling",
+            "Stiffness",
+            "Reduced range of motion",
+            "Fatigue"
+          ],
+          "treatments": [
+            "Medications (e.g., NSAIDs)",
+            "Physical therapy",
+            "Surgery",
+            "Lifestyle changes (diet, exercise)"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Asthma",
+          "description": "Asthma is a condition in which your airways narrow and swell, leading to breathing difficulties.",
+          "symptoms": [
+            "Shortness of breath",
+            "Chest tightness",
+            "Wheezing",
+            "Coughing",
+            "Trouble sleeping"
+          ],
+          "treatments": [
+            "Inhalers",
+            "Bronchodilators",
+            "Steroid medications",
+            "Lifestyle management"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt3.html"
+}
+        },
+        {
+          "name": "Hypertension",
+          "description": "Hypertension, or high blood pressure, is a condition where the force of blood against the walls of the arteries is too high.",
+          "symptoms": [
+            "Headache",
+            "Fatigue",
+            "Nosebleeds",
+            "Blurred vision",
+            "Dizziness"
+          ],
+          "treatments": [
+            "Lifestyle changes (diet, exercise)",
+            "Antihypertensive medications",
+            "Regular monitoring",
+            "Stress management"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Coronary Artery Disease",
+          "description": "Coronary Artery Disease is caused by the buildup of plaque in the coronary arteries, leading to restricted blood flow to the heart.",
+          "symptoms": [
+            "Chest pain",
+            "Shortness of breath",
+            "Fatigue",
+            "Dizziness",
+            "Nausea"
+          ],
+          "treatments": [
+            "Medications",
+            "Angioplasty",
+            "Bypass surgery",
+            "Lifestyle changes"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+          {
+          "name": "Obesity",
+          "description": "Obesity is a complex disease involving an excessive amount of body fat that increases the risk of health problems.",
+          "symptoms": [
+            "Excess body weight",
+            "Shortness of breath",
+            "Increased risk of heart disease",
+            "Fatigue",
+            "Sleep apnea"
+          ],
+          "treatments": [
+            "Healthy diet and exercise",
+            "Medications",
+            "Behavioral therapy",
+            "Bariatric surgery"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt3.html"
+}
+        },
+        {
+          "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+          "description": "COPD is a group of lung diseases that block airflow and make it difficult to breathe.",
+          "symptoms": [
+            "Chronic cough",
+            "Shortness of breath",
+            "Wheezing",
+            "Fatigue",
+            "Frequent respiratory infections"
+          ],
+          "treatments": [
+            "Bronchodilators",
+            "Steroids",
+            "Pulmonary rehabilitation",
+            "Oxygen therapy"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Stroke",
+          "description": "A stroke occurs when the blood supply to part of the brain is cut off, leading to brain damage.",
+          "symptoms": [
+            "Sudden weakness or numbness",
+            "Difficulty speaking",
+            "Vision problems",
+            "Headache",
+            "Loss of balance"
+          ],
+          "treatments": [
+            "Medication",
+            "Rehabilitation therapy",
+            "Surgery (in some cases)",
+            "Lifestyle changes"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Kidney Disease",
+          "description": "Kidney disease refers to conditions affecting the kidneys, which filter waste from the blood.",
+          "symptoms": [
+            "Swelling in legs and feet",
+            "Fatigue",
+            "Nausea",
+            "High blood pressure",
+            "Urinary changes"
+          ],
+          "treatments": [
+            "Dialysis",
+            "Medications",
+            "Lifestyle modifications",
+            "Kidney transplant (in severe cases)"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Osteoporosis",
+          "description": "Osteoporosis is a condition characterized by weakened bones, increasing the risk of fractures.",
+          "symptoms": [
+            "Reduced bone density",
+            "Height loss",
+            "Frequent fractures",
+            "Back pain",
+            "Stooped posture"
+          ],
+          "treatments": [
+            "Calcium and vitamin D supplements",
+            "Bisphosphonates",
+            "Weight-bearing exercise",
+            "Medications to improve bone density"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Gout",
+          "description": "Gout is a form of arthritis caused by a buildup of uric acid in the joints, leading to painful inflammation.",
+          "symptoms": [
+            "Severe joint pain",
+            "Redness and swelling",
+            "Tenderness",
+            "Warmth around joints",
+            "Limited movement"
+          ],
+          "treatments": [
+            "Anti-inflammatory medications",
+            "Uric acid-lowering drugs",
+            "Dietary changes",
+            "Joint aspiration (removal of excess fluid)"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Cancer",
+          "description": "Cancer is a group of diseases involving abnormal cell growth with the potential to spread to other parts of the body.",
+          "symptoms": [
+            "Persistent fatigue",
+            "Unexplained weight loss",
+            "Changes in skin or moles",
+            "Pain in specific areas",
+            "Swelling or lumps"
+          ],
+          "treatments": [
+            "Chemotherapy",
+            "Radiation therapy",
+            "Surgery",
+            "Immunotherapy",
+            "Targeted therapy"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Liver Disease",
+          "description": "Liver disease encompasses a variety of conditions that affect liver function and health.",
+          "symptoms": [
+            "Fatigue",
+            "Jaundice",
+            "Abdominal pain",
+            "Swelling in legs and abdomen",
+            "Nausea"
+          ],
+          "treatments": [
+            "Medications",
+            "Liver transplant (in severe cases)",
+            "Lifestyle changes",
+            "Supportive care"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Thyroid Disorders",
+          "description": "Thyroid disorders refer to conditions affecting the thyroid gland, which produces hormones that regulate metabolism.",
+          "symptoms": [
+            "Fatigue",
+            "Weight changes",
+            "Tremors",
+            "Mood swings",
+            "Goiter"
+          ],
+          "treatments": [
+            "Hormone replacement therapy",
+            "Antithyroid medications",
+            "Radioiodine therapy",
+            "Surgery"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+        {
+          "name": "Anemia",
+          "description": "Anemia is a condition in which there is a deficiency of red blood cells or hemoglobin, leading to fatigue and weakness.",
+          "symptoms": [
+            "Fatigue",
+            "Pale skin",
+            "Shortness of breath",
+            "Dizziness",
+            "Headaches"
+          ],
+          "treatments": [
+            "Iron supplements",
+            "Vitamin B12 or folate supplements",
+            "Blood transfusion",
+            "Treating underlying cause"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt2.html"
+}
+        },
+  {
+    "name": "Inflammatory Bowel Disease (IBD)",
+    "description": "A group of disorders, including Crohn's disease and ulcerative colitis, that cause chronic inflammation of the digestive tract.",
+    "symptoms": [
+      "Abdominal pain",
+      "Chronic diarrhea",
+      "Rectal bleeding",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "treatments": [
+      "Anti-inflammatory medications",
+      "Immunosuppressants",
+      "Dietary changes",
+      "Surgery in severe cases"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Gallbladder Disease",
+    "description": "Conditions affecting the gallbladder, often involving gallstones or inflammation (cholecystitis).",
+    "symptoms": [
+      "Sharp pain in the upper right abdomen",
+      "Nausea and vomiting",
+      "Jaundice",
+      "Fever",
+      "Bloating"
+    ],
+    "treatments": [
+      "Gallbladder removal (cholecystectomy)",
+      "Medications to dissolve gallstones",
+      "Low-fat diet"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Cirrhosis",
+    "description": "Scarring of the liver caused by long-term damage, often from alcohol use or viral hepatitis.",
+    "symptoms": [
+      "Fatigue",
+      "Yellowing of the skin (jaundice)",
+      "Swelling in legs and abdomen",
+      "Easy bruising",
+      "Itchy skin"
+    ],
+    "treatments": [
+      "Avoiding alcohol",
+      "Medications to treat underlying causes",
+      "Liver transplant in advanced cases"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Fibromyalgia",
+    "description": "A condition characterized by widespread musculoskeletal pain, fatigue, and tenderness in localized areas.",
+    "symptoms": [
+      "Widespread pain",
+      "Fatigue",
+      "Sleep disturbances",
+      "Memory and concentration problems ('fibro fog')",
+      "Morning stiffness"
+    ],
+    "treatments": [
+      "Pain relievers",
+      "Antidepressants",
+      "Physical therapy",
+      "Stress management"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Pain Management Institute",
+        "address": "321 Pain Relief Blvd, Comfort City, State, Country",
+        "coordinates": {
+          "latitude": 48.856613,
+          "longitude": 2.352222
+        }
+      }
+    ]
+  },
+  {
+    "name": "Parkinson’s Disease",
+    "description": "A progressive nervous system disorder that affects movement.",
+    "symptoms": [
+      "Tremors",
+      "Slowed movement",
+      "Rigid muscles",
+      "Impaired balance",
+      "Speech changes"
+    ],
+    "treatments": [
+      "Medications to manage symptoms",
+      "Deep brain stimulation",
+      "Physical therapy"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Epilepsy",
+    "description": "A neurological disorder marked by recurrent seizures.",
+    "symptoms": [
+      "Seizures",
+      "Temporary confusion",
+      "Loss of consciousness",
+      "Uncontrollable jerking movements",
+      "Anxiety or fear before a seizure"
+    ],
+    "treatments": [
+      "Anti-seizure medications",
+      "Surgery for focal seizures",
+      "Vagus nerve stimulation"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Migraine",
+    "description": "A neurological condition characterized by intense headaches often accompanied by nausea and sensitivity to light.",
+    "symptoms": [
+      "Severe headache",
+      "Sensitivity to light and sound",
+      "Nausea and vomiting",
+      "Visual disturbances",
+      "Tingling or numbness in face or limbs"
+    ],
+    "treatments": [
+      "Pain relievers",
+      "Preventive medications",
+      "Lifestyle modifications"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "description": "An autoimmune disorder causing inflammation in the joints, leading to pain and swelling.",
+    "symptoms": [
+      "Joint pain and swelling",
+      "Stiffness in the morning",
+      "Fatigue",
+      "Loss of joint function",
+      "Warmth in affected joints"
+    ],
+    "treatments": [
+      "Disease-modifying anti-rheumatic drugs (DMARDs)",
+      "Biologic agents",
+      "Physical therapy"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Sickle Cell Anemia",
+    "description": "A genetic disorder that causes red blood cells to become misshapen and break down.",
+    "symptoms": [
+      "Pain episodes",
+      "Swelling in hands and feet",
+      "Frequent infections",
+      "Delayed growth",
+      "Vision problems"
+    ],
+    "treatments": [
+      "Pain management",
+      "Blood transfusions",
+      "Bone marrow transplant"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Psoriasis",
+    "description": "An autoimmune skin condition causing red, scaly patches on the skin.",
+    "symptoms": [
+      "Red patches of skin",
+      "Scales or flaking",
+      "Dry and cracked skin",
+      "Itching or burning",
+      "Thickened nails"
+    ],
+    "treatments": [
+      "Topical treatments",
+      "Phototherapy",
+      "Systemic medications"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Lupus",
+    "description": "An autoimmune disease that causes inflammation in various parts of the body.",
+    "symptoms": [
+      "Butterfly-shaped rash on face",
+      "Joint pain and stiffness",
+      "Fatigue",
+      "Hair loss",
+      "Sensitivity to sunlight"
+    ],
+    "treatments": [
+      "Anti-inflammatory drugs",
+      "Immunosuppressants",
+      "Lifestyle changes"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Varicose Veins",
+    "description": "Enlarged, twisted veins often appearing in the legs.",
+    "symptoms": [
+      "Visible swollen veins",
+      "Aching or heavy legs",
+      "Swelling in lower legs",
+      "Itching around veins",
+      "Discoloration of skin around veins"
+    ],
+    "treatments": [
+      "Compression stockings",
+      "Sclerotherapy",
+      "Laser treatments",
+      "Surgical removal"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Hernia",
+    "description": "A condition where an organ pushes through a weak spot in the muscle or tissue.",
+    "symptoms": [
+      "Bulge in the affected area",
+      "Pain when lifting or straining",
+      "Discomfort while coughing",
+      "Heaviness in the abdomen",
+      "Burning or aching sensation"
+    ],
+    "treatments": [
+      "Lifestyle changes",
+      "Surgery to repair hernia",
+      "Supportive devices"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Heart Failure",
+    "description": "A chronic condition where the heart cannot pump blood efficiently.",
+    "symptoms": [
+      "Shortness of breath",
+      "Swelling in legs and ankles",
+      "Fatigue",
+      "Rapid or irregular heartbeat",
+      "Persistent cough with pink mucus"
+    ],
+    "treatments": [
+      "Medications to improve heart function",
+      "Lifestyle changes",
+      "Surgery or devices like pacemakers"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Bronchitis",
+    "description": "Inflammation of the bronchial tubes, often caused by infection or irritants.",
+    "symptoms": [
+      "Persistent cough",
+      "Production of mucus",
+      "Shortness of breath",
+      "Chest discomfort",
+      "Wheezing"
+    ],
+    "treatments": [
+      "Rest and fluids",
+      "Bronchodilators",
+      "Medications to reduce inflammation"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Sleep Apnea",
+    "description": "A disorder characterized by interruptions in breathing during sleep.",
+    "symptoms": [
+      "Loud snoring",
+      "Pauses in breathing during sleep",
+      "Morning headache",
+      "Daytime fatigue",
+      "Difficulty concentrating"
+    ],
+    "treatments": [
+      "CPAP (Continuous Positive Airway Pressure) therapy",
+      "Weight loss",
+      "Oral appliances"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Sarcoidosis",
+    "description": "An inflammatory disease that affects multiple organs, primarily the lungs and lymph glands.",
+    "symptoms": [
+      "Persistent dry cough",
+      "Shortness of breath",
+      "Fatigue",
+      "Red, swollen skin patches",
+      "Eye irritation"
+    ],
+    "treatments": [
+      "Corticosteroids",
+      "Immunosuppressive medications",
+      "Physical therapy"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Hashimoto’s Thyroiditis",
+    "description": "An autoimmune disorder leading to an underactive thyroid gland.",
+    "symptoms": [
+      "Fatigue",
+      "Weight gain",
+      "Cold intolerance",
+      "Hair thinning",
+      "Constipation"
+    ],
+    "treatments": [
+      "Thyroid hormone replacement therapy",
+      "Regular blood tests",
+      "Dietary adjustments"
+    ],
+    "appointment_booking": {
+      "option": "Book an Appointment",
+      "redirect_url":  "appointments/apmnt2.html"
+}
+  },
+  {
+    "name": "Marfan Syndrome",
+    "description": "A genetic disorder affecting connective tissue.",
+    "symptoms": [
+      "Tall and thin stature",
+      "Long fingers and toes",
+      "Chest deformities",
+      "Eye problems",
+      "Heart murmurs"
+    ],
+    "treatments": [
+      "Medications for heart protection",
+      "Regular monitoring",
+      "Surgery for severe complications"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Genetic Disorders Hospital",
+        "address": "789 Connective Care Ave, Gene City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Charcot-Marie-Tooth Disease",
+    "description": "A hereditary nerve disorder that affects the peripheral nerves.",
+    "symptoms": [
+      "Muscle weakness",
+      "Foot drop",
+      "High arches",
+      "Difficulty walking",
+      "Loss of sensation in the extremities"
+    ],
+    "treatments": [
+      "Physical therapy",
+      "Orthopedic devices",
+      "Pain management"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Neurology Care Center",
+        "address": "321 Nerve Health Blvd, Neuro City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Wilson’s Disease",
+    "description": "A rare genetic disorder causing copper accumulation in the body.",
+    "symptoms": [
+      "Fatigue",
+      "Jaundice",
+      "Tremors",
+      "Psychiatric changes",
+      "Difficulty speaking or swallowing"
+    ],
+    "treatments": [
+      "Chelation therapy",
+      "Dietary copper restriction",
+      "Liver transplantation in severe cases"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Metabolic Disorders Hospital",
+        "address": "654 Copper Balance St, Liver Town, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Epidermolysis Bullosa",
+    "description": "A group of genetic disorders causing fragile, blistering skin.",
+    "symptoms": [
+      "Blisters on the skin",
+      "Fragile nails",
+      "Thickened skin on palms and soles",
+      "Difficulty swallowing",
+      "Scarring"
+    ],
+    "treatments": [
+      "Wound care",
+      "Pain management",
+      "Nutritional support"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Dermatology Specialty Hospital",
+        "address": "987 Blister Blvd, Skin City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rickets",
+    "description": "A condition in children caused by vitamin D, calcium, or phosphate deficiency.",
+    "symptoms": [
+      "Delayed growth",
+      "Bone pain",
+      "Muscle weakness",
+      "Bowed legs",
+      "Thickened wrists and ankles"
+    ],
+    "treatments": [
+      "Vitamin D and calcium supplements",
+      "Sunlight exposure",
+      "Dietary modifications"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Pediatric Bone Health Center",
+        "address": "123 Growth Lane, Kids Town, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Pseudotumor Cerebri",
+    "description": "A condition with increased intracranial pressure mimicking a brain tumor.",
+    "symptoms": [
+      "Headaches",
+      "Blurred vision",
+      "Ringing in the ears",
+      "Nausea",
+      "Difficulty seeing"
+    ],
+    "treatments": [
+      "Medications to reduce pressure",
+      "Weight loss",
+      "Surgical procedures if necessary"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Neurological Pressure Clinic",
+        "address": "456 Vision Blvd, Brain City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Alport Syndrome",
+    "description": "A genetic disorder affecting the kidneys, eyes, and ears, leading to progressive kidney disease.",
+    "symptoms": [
+      "Blood in urine",
+      "Hearing loss",
+      "Swelling in the legs",
+      "High blood pressure",
+      "Vision abnormalities"
+    ],
+    "treatments": [
+      "Blood pressure management",
+      "Hearing aids",
+      "Kidney dialysis or transplant"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Nephrology and Genetics Hospital",
+        "address": "123 Kidney Care Rd, Renal City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Huntington’s Chorea",
+    "description": "A hereditary disorder causing progressive breakdown of nerve cells in the brain.",
+    "symptoms": [
+      "Involuntary movements",
+      "Cognitive decline",
+      "Depression",
+      "Difficulty with speech and swallowing",
+      "Impaired coordination"
+    ],
+    "treatments": [
+      "Medications to control symptoms",
+      "Physical therapy",
+      "Speech therapy"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Neurological Disorders Center",
+        "address": "456 Brain Care St, Neuro City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Wegener’s Granulomatosis",
+    "description": "A rare disorder causing inflammation of blood vessels.",
+    "symptoms": [
+      "Sinus pain",
+      "Nasal discharge",
+      "Coughing blood",
+      "Joint pain",
+      "Skin rashes"
+    ],
+    "treatments": [
+      "Immunosuppressive medications",
+      "Corticosteroids",
+      "Plasma exchange"
+    ],
+    "hospital_locations": [
+      {
+        "name": "Vascular Inflammation Clinic",
+        "address": "789 Vessel Health Ave, Immune City, State, Country",
+        "appointment_booking": {
+          "option": "Book an Appointment",
+          "redirect_url": "appointments/apmnt2.html"
+        }
+      }
+    ]
+    }
+  ]
+  }
+  ,
+  [
+    {
+      "name": "Epidural Abscess",
+      "description": "An infection in the area between the bones of the spine and the spinal cord.",
+      "symptoms": [
+        "Severe back pain",
+        "Fever",
+        "Weakness in limbs",
+        "Numbness",
+        "Loss of bladder control"
+      ],
+      "treatments": [
+        "Antibiotics",
+        "Surgical drainage",
+        "Pain management"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt1.html"
+      }
+    },
+    {
+      "name": "Takayasu’s Arteritis",
+      "description": "A rare inflammatory disease affecting the large arteries.",
+      "symptoms": [
+        "Fatigue",
+        "Arm or leg pain",
+        "Weak pulse in limbs",
+        "Dizziness",
+        "Chest pain"
+      ],
+      "treatments": [
+        "Corticosteroids",
+        "Immunosuppressive medications",
+        "Surgical bypass for arteries"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt2.html"
+      }
+    },
+    {
+      "name": "Hemangioma",
+      "description": "A benign tumor of blood vessels, often appearing on the skin.",
+      "symptoms": [
+        "Red or purple skin lump",
+        "Pain at the site",
+        "Bleeding",
+        "Ulceration",
+        "Cosmetic disfigurement"
+      ],
+      "treatments": [
+        "Laser therapy",
+        "Corticosteroids",
+        "Surgical removal if necessary"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt3.html"
+      }
+    },
+    {
+      "name": "Ankylosing Spondylitis",
+      "description": "A type of arthritis causing inflammation in the spine.",
+      "symptoms": [
+        "Chronic back pain",
+        "Stiffness in the spine",
+        "Reduced flexibility",
+        "Fatigue",
+        "Pain in hips or shoulders"
+      ],
+      "treatments": [
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "Physical therapy",
+        "Biologic medications"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt4.html"
+      }
+    },
+    {
+      "name": "Neurotoxicity",
+      "description": "Damage to the nervous system caused by exposure to toxins.",
+      "symptoms": [
+        "Tingling or numbness",
+        "Muscle weakness",
+        "Memory loss",
+        "Seizures",
+        "Mood changes"
+      ],
+      "treatments": [
+        "Removing the toxin source",
+        "Symptom management",
+        "Supportive therapies"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt5.html"
+      }
+    },
+    {
+      "name": "Sarcoma",
+      "description": "A type of cancer that arises in connective tissues such as bones, muscles, or fat.",
+      "symptoms": [
+        "Swelling or lump",
+        "Pain in affected area",
+        "Fatigue",
+        "Unexplained weight loss",
+        "Restricted movement"
+      ],
+      "treatments": [
+        "Surgery",
+        "Radiation therapy",
+        "Chemotherapy",
+        "Targeted therapy"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt6.html"
+      }
+    },
+    {
+      "name": "Hemophilia",
+      "description": "A genetic disorder where blood doesn’t clot properly due to lack of clotting factors.",
+      "symptoms": [
+        "Excessive bleeding",
+        "Frequent nosebleeds",
+        "Bruising easily",
+        "Blood in urine or stool",
+        "Joint pain or swelling"
+      ],
+      "treatments": [
+        "Clotting factor replacement therapy",
+        "Desmopressin (for mild cases)",
+        "Physical therapy"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt7.html"
+      }
+    },
+    {
+      "name": "Achalasia",
+      "description": "A rare disorder making it difficult for food and liquid to pass into the stomach.",
+      "symptoms": [
+        "Difficulty swallowing",
+        "Regurgitation of food",
+        "Chest pain",
+        "Heartburn",
+        "Weight loss"
+      ],
+      "treatments": [
+        "Balloon dilation",
+        "Heller myotomy surgery",
+        "Botox injections",
+        "Diet modifications"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt8.html"
+      }
+    },
+    {
+      "name": "Aneurysm",
+      "description": "A localized bulge or ballooning in the wall of a blood vessel.",
+      "symptoms": [
+        "Severe headache (if ruptured)",
+        "Nausea and vomiting",
+        "Vision changes",
+        "Neck stiffness",
+        "Light sensitivity"
+      ],
+      "treatments": [
+        "Endovascular coiling",
+        "Surgical clipping",
+        "Blood pressure management"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt9.html"
+      }
+    },
+    {
+      "name": "Polymyalgia Rheumatica",
+      "description": "An inflammatory disorder causing muscle pain and stiffness, especially in the shoulders and hips.",
+      "symptoms": [
+        "Muscle pain in shoulders and hips",
+        "Stiffness, especially in the morning",
+        "Fatigue",
+        "Fever",
+        "Weight loss"
+      ],
+      "treatments": [
+        "Corticosteroids",
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "Physical therapy"
+      ],
+      "appointment_booking": {
+        "option": "Book an Appointment",
+        "redirect_url": "appointments/apmnt10.html"
+      }
+  },  
+  {
+    "name": "Arteriosclerosis",
+    "description": "Thickening or hardening of the arteries due to plaque buildup.",
+    "symptoms": [
+      "Chest pain",
+      "Shortness of breath",
+      "Weakness in limbs",
+      "Difficulty speaking",
+      "High blood pressure"
+    ],
+    "treatments": [
+      "Lifestyle changes",
+      "Medications to reduce cholesterol",
+      "Angioplasty",
+      "Surgical bypass"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Endometrial Cancer",
+    "description": "Cancer that begins in the lining of the uterus.",
+    "symptoms": [
+      "Abnormal vaginal bleeding",
+      "Pelvic pain",
+      "Weight loss",
+      "Pain during intercourse",
+      "Fatigue"
+    ],
+    "treatments": [
+      "Surgery (hysterectomy)",
+      "Radiation therapy",
+      "Hormone therapy",
+      "Chemotherapy"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Eosinophilic Esophagitis",
+    "description": "An allergic condition causing inflammation in the esophagus.",
+    "symptoms": [
+      "Difficulty swallowing",
+      "Food impaction",
+      "Heartburn",
+      "Chest pain",
+      "Nausea"
+    ],
+    "treatments": [
+      "Dietary changes",
+      "Proton pump inhibitors",
+      "Topical corticosteroids"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Pregnancy-Related Lower Back Pain",
+    "description": "Lower back pain commonly experienced during pregnancy due to hormonal and physical changes.",
+    "symptoms": [
+      "Pain radiating to the hips and thighs for women",
+      "Pain radiating to the hips and thighs for girls",
+      "Pain radiating to the hips and thighs for ladies",
+      "Discomfort during prolonged standing for women",
+      "Discomfort during prolonged standing for girls",
+      "Discomfort during prolonged standing for ladies",
+      "Difficulty in walking for women",
+      "Difficulty in walking for girls",
+      "Difficulty in walking for ladies",
+      "Fatigue for women",
+      "Fatigue for girls",
+      "Fatigue for ladies"
+    ],
+    "treatments": [
+      "Physical therapy",
+      "Prenatal exercises",
+      "Supportive maternity belts",
+      "Hot or cold compresses"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Endometriosis",
+    "description": "A condition where tissue similar to the lining inside the uterus grows outside it.",
+    "symptoms": [
+      "Lower abdominal pain for women",
+      "Lower abdominal pain for girls",
+      "Lower abdominal pain for ladies",
+      "Lower back pain for women",
+      "Lower back pain for girls",
+      "Lower back pain for ladies",
+      "Pain during intercourse for women",
+      "Pain during intercourse for girls",
+      "Pain during intercourse for ladies",
+      "Heavy menstrual bleeding for women",
+      "Heavy menstrual bleeding for girls",
+      "Heavy menstrual bleeding for ladies",
+      "Chronic pelvic pain for women",
+      "Chronic pelvic pain for girls",
+      "Chronic pelvic pain for ladies",
+      "Fatigue for women",
+      "Fatigue for girls",
+      "Fatigue for ladies"
+    ],
+    "treatments": [
+      "Pain relievers",
+      "Hormonal therapy",
+      "Laparoscopic surgery",
+      "Lifestyle changes"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Urinary Tract Infection (UTI)",
+    "description": "An infection in any part of the urinary system, particularly common in women.",
+    "symptoms": [
+      "Lower abdominal pain for women",
+      "Lower abdominal pain for girls",
+      "Lower abdominal pain for ladies",
+      "Lower back pain for women",
+      "Lower back pain for girls",
+      "Lower back pain for ladies",
+      "Frequent urination for women",
+      "Frequent urination for girls",
+      "Frequent urination for ladies",
+      "Burning sensation during urination for women",
+      "Burning sensation during urination for girls",
+      "Burning sensation during urination for ladies",
+      "Fever for women",
+      "Fever for girls",
+      "Fever for ladies"
+    ],
+    "treatments": [
+      "Antibiotics",
+      "Increased fluid intake",
+      "Pain relievers"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  }
+   ],
+    {
+      "category": "Mental Health",
+      "conditions": [
+        {
+          "name": "Depression",
+          "description": "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest.",
+          "symptoms": [
+            "Persistent sadness",
+            "Loss of interest or pleasure",
+            "Fatigue",
+            "Changes in appetite",
+            "Difficulty concentrating"
+          ],
+          "treatments": [
+            "Therapy (CBT, Psychotherapy)",
+            "Antidepressant medications",
+            "Lifestyle changes",
+            "Support groups"
+          ],
+         "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+        },
+  {
+    "name": "Depression",
+    "description": "Persistent sadness, loss of interest, and feelings of hopelessness.",
+    "symptoms": [
+      "Persistent sadness",
+      "Loss of interest",
+      "Feelings of hopelessness",
+      "Fatigue",
+      "Changes in appetite",
+        "Depression"
+    ],
+    "treatments": [
+      "Therapy",
+      "Antidepressants",
+      "Mindfulness exercises",
+      "Lifestyle changes"
+    ],
+     "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Anxiety Disorders",
+    "description": "Excessive fear, worry, and nervousness that interfere with daily activities.",
+    "symptoms": [
+      "Excessive fear",
+      "Worry",
+      "Nervousness",
+      "Fatigue",
+      "Difficulty in concentration"
+    ],
+    "treatments": [
+      "Cognitive Behavioral Therapy",
+      "Anti-anxiety medications",
+      "Relaxation techniques",
+      "Support groups"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Stress",
+    "description": "Overwhelming pressure and inability to cope with life's demands.",
+    "symptoms": [
+      "Overwhelming pressure",
+      "Inability to cope with life's demands",
+      "Headaches",
+      "Sleep disturbances",
+      "Stress"
+    ],
+    "treatments": [
+      "Stress management techniques",
+      "Counseling",
+      "Healthy lifestyle changes",
+      "Mindfulness and relaxation exercises"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+        {
+          "name": "Anxiety Disorder",
+          "description": "Anxiety disorder involves persistent fear or worry that interferes with daily activities.",
+          "symptoms": [
+            "Excessive worry",
+            "Restlessness",
+            "Fatigue",
+            "Muscle tension",
+            "Sleep disturbances",
+            "Anxiety disorder"
+          ],
+          "treatments": [
+            "Cognitive-behavioral therapy",
+            "Medication (antianxiety drugs)",
+            "Mindfulness practices",
+            "Stress management techniques"
+          ],
+          "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+        },
+  {
+    "name": "Bipolar Disorder",
+    "description": "Fluctuations between manic highs and depressive lows.",
+    "symptoms": [
+      "Periods of unusually high energy",
+      "Decreased need for sleep",
+      "Racing thoughts",
+      "Periods of sadness or hopelessness",
+      "Difficulty concentrating"
+    ],
+    "treatments": [
+      "Mood stabilizers",
+      "Psychotherapy",
+      "Antipsychotic medications",
+      "Lifestyle management"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Obsessive-Compulsive Disorder (OCD)",
+    "description": "Repetitive thoughts (obsessions) and behaviors (compulsions).",
+    "symptoms": [
+      "Frequent intrusive thoughts",
+      "Repetitive behaviors to reduce anxiety",
+      "Fear of contamination",
+      "Need for symmetry and order",
+      "Difficulty focusing due to intrusive thoughts"
+    ],
+    "treatments": [
+      "Cognitive Behavioral Therapy",
+      "Exposure and Response Prevention",
+      "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+      "Mindfulness techniques"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Post-Traumatic Stress Disorder (PTSD)",
+    "description": "Emotional distress and flashbacks following a traumatic event.",
+    "symptoms": [
+      "Flashbacks or intrusive memories",
+      "Avoidance of trauma-related triggers",
+      "Emotional numbness",
+      "Hypervigilance",
+      "Difficulty sleeping"
+    ],
+    "treatments": [
+      "Trauma-focused therapy",
+      "Eye Movement Desensitization and Reprocessing (EMDR)",
+      "Antidepressants",
+      "Support groups"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Schizophrenia",
+    "description": "Distorted thinking, hallucinations, delusions, and social withdrawal.",
+    "symptoms": [
+      "Hallucinations",
+      "Delusions",
+      "Disorganized speech",
+      "Lack of motivation",
+      "Social withdrawal"
+    ],
+    "treatments": [
+      "Antipsychotic medications",
+      "Cognitive therapy",
+      "Social skills training",
+      "Family support and education"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Eating Disorders",
+    "description": "Conditions like anorexia, bulimia, and binge-eating disorder related to food, body image, and weight.",
+    "symptoms": [
+      "Preoccupation with body weight",
+      "Extreme dieting or fasting",
+      "Binge eating episodes",
+      "Self-induced vomiting",
+      "Distorted body image"
+    ],
+    "treatments": [
+      "Nutritional counseling",
+      "Cognitive Behavioral Therapy",
+      "Family therapy",
+      "Medication for underlying mental health issues"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "description": "Difficulty in focusing, hyperactivity, and impulsive behavior.",
+    "symptoms": [
+      "Difficulty focusing on tasks",
+      "Impulsive actions",
+      "Hyperactivity",
+      "Forgetfulness",
+      "Difficulty organizing activities"
+    ],
+    "treatments": [
+      "Behavioral therapy",
+      "Stimulant medications",
+      "Executive functioning training",
+      "Parent training and education"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  },
+  {
+    "name": "Phobias",
+    "description": "Intense fear of specific objects, situations, or activities.",
+    "symptoms": [
+      "Intense fear triggered by a specific stimulus",
+      "Avoidance of the feared object or situation",
+      "Panic attacks in response to exposure",
+      "Sweating and rapid heartbeat",
+      "Difficulty functioning in daily life"
+    ],
+    "treatments": [
+      "Exposure therapy",
+      "Cognitive Behavioral Therapy",
+      "Anti-anxiety medications",
+      "Relaxation techniques"
+    ],
+    "appointment_booking": {
+            "option": "Book an Appointment",
+            "redirect_url":  "appointments/apmnt1.html"
+}
+  }
+  ]
+    }
+      ]
+}

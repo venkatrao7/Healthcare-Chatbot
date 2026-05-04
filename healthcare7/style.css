@@ -1,0 +1,193 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* App Container */
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #04a6b8, #0703cc);
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo i {
+    font-size: 28px;
+    color: #ffdf59;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffdf59;
+    text-decoration: underline;
+}
+
+header .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Chat Box */
+#chat-box {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    background: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* User Message */
+.user-message {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    background: #e0dfdf;
+    word-wrap: break-word;
+    align-self: flex-end;
+    margin-left: auto; /* Moves user messages to the right */
+}
+
+/* Bot Message */
+.bot-message {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    background: #f1f0f0;
+    word-wrap: break-word;
+    align-self: flex-start;
+    margin-right: auto; /* Moves bot messages to the left */
+}
+
+/* Input Section */
+#input-section {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#user-message {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+}
+
+#user-message:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#send-button {
+    margin-left: 10px;
+    background: linear-gradient(45deg, #04a6b8, #0703cc);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background: #0831d4;
+}
+
+/* Scrollbar Styling */
+#chat-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.nav-links a.active {
+    color: #ffdf59;
+    text-decoration: underline;
+}
+
+
+#appointment-form {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#appointment-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-appointment {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#appointment-response {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}

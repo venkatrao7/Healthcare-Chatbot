@@ -1,0 +1,147 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Clean modern font */
+  background: linear-gradient(120deg, #e0eafc, #cfdef3); /* Soft gradient background */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-container {
+  background: #ffffff;
+  border-radius: 20px; /* Softer rounded corners */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Deep shadow for 3D effect */
+  padding: 40px; /* More spacious padding */
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animations */
+}
+
+.login-container:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.login-container h1::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  display: block;
+  margin: 10px auto 0 auto;
+  border-radius: 3px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px; /* More rounded inputs */
+  font-size: 16px;
+  background: #f9f9f9;
+  transition: all 0.3s ease; /* Smooth interaction */
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+  background: #f3f4f6;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3); /* Subtle glow */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 48%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover animations */
+}
+
+.btn-login {
+  background: linear-gradient(135deg, #42a5f5, #1e88e5); /* Vibrant blue gradient */
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  transform: translateY(-3px); /* Subtle lift effect */
+  box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4); /* Glow shadow */
+  background: linear-gradient(135deg, #1e88e5, #1976d2); /* Darker hover gradient */
+}
+
+.btn-register {
+  background: linear-gradient(135deg, #ffb74d, #fb8c00); /* Vibrant orange gradient */
+  color: #ffffff;
+}
+
+.btn-register:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(251, 140, 0, 0.4); /* Glow shadow */
+  background: linear-gradient(135deg, #fb8c00, #f57c00); /* Darker hover gradient */
+}
+
+/* Smooth animation for the login box */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+/* Animation for the form container */
+.login-container {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+      padding: 20px;
+  }
+
+  .btn {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 22px;
+  }
+}

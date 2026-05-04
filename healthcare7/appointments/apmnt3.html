@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyusha Hospital - Appointment Booking</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #007bff;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Hospital Info */
+        .hospital-info, .doctor-info, .appointment-info {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Appointment Form */
+        .appointment-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-size: 1.1em;
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .form-group button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            font-size: 1em;
+            color: #777;
+            margin-top: 40px;
+        }
+
+        /* Map Section */
+        .map-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        iframe.map-frame {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Pratyusha Hospital</h1>
+            <p>Located at Badangpet, Hyderabad, India</p>
+        </header>
+
+        <section class="hospital-info">
+            <h2>About the Hospital</h2>
+            <p>Pratyusha Hospital offers a wide range of medical services to patients in the Badangpet area. It is approximately 1.68 km from Nadergul, providing access to quality healthcare for the local community.</p>
+        </section>
+
+        <section class="doctor-info">
+            <h2>Meet Our Doctors</h2>
+            <p><strong>Dr. Pratyusha</strong> - Specialist in General Medicine and Surgery</p>
+            <p>Dr. Pratyusha and her team of experienced doctors provide comprehensive medical care across various specialties, including trauma, emergency services, cardiology, and more.</p>
+        </section>
+
+        <section class="appointment-info">
+            <h2>Book an Appointment</h2>
+
+            <div class="appointment-form">
+                <form id="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Appointment Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Book Appointment</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="location-info">
+            <h2>Our Location</h2>
+            <p>Find us on the map below:</p>
+            <a href="https://www.google.com/maps/place/Pratyusha+Hospital/@17.2735583,78.5395445,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcba3becab241af:0x891814519c650ee2!8m2!3d17.2735583!4d78.5395445!16s%2Fg%2F11cl_5ljqp?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+                Click here to view Pratyusha Hospital on Google Maps
+            </a>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Pratyusha Hospital. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("appointment-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const date = document.getElementById("date").value;
+            const time = document.getElementById("time").value;
+
+            alert(`Appointment booked successfully for ${name}.\nDate: ${date}\nTime: ${time}\nEmail: ${email}\nPhone: ${phone}`);
+        });
+    </script>
+</body>
+</html>
+
