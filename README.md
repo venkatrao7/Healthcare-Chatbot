@@ -79,7 +79,7 @@ Typing animations, chatbot responses, auto-scroll, and modern chat bubbles.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/shilpan16/Healthcare-Chatbot.git
+git clone https://github.com/venkatrao7/Healthcare-Chatbot.git
 cd Healthcare-Chatbot
 ```
 
