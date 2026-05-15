@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cognitive Wellness - Login</title>
-  <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cognitive Wellness & Medical Guidance</title>
+
+    <link rel="stylesheet" href="form.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+  <button id="themeToggle" class="theme-toggle">
+  <i class="fa-solid fa-moon"></i>
+</button>
   <div class="login-container">
-    <h1>LOGIN</h1>
+   <h1>Welcome Back</h1>
+<p class="subtitle">Login to continue your healthcare journey</p>
     
     <form action="/login" method="post">
       <div class="form-group">
@@ -20,7 +36,7 @@
         <div style="position: relative;">
           <input type="password" id="password" name="password" placeholder="Enter your password" required>
           <span id="togglePassword" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
-            👁️
+            <i class="fa-solid fa-eye"></i>
           </span>
         </div>
       </div>
@@ -74,6 +90,30 @@
       // Change the eye symbol based on visibility
       togglePassword.textContent = type === 'password' ? '👁️' : '🙈';
     });
+    const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", () => {
+
+  document.body.classList.toggle("light-mode");
+
+  if(document.body.classList.contains("light-mode")){
+      localStorage.setItem("theme","light");
+      themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+  }else{
+      localStorage.setItem("theme","dark");
+      themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+  }
+});
+
+window.addEventListener("load",()=>{
+
+   const savedTheme = localStorage.getItem("theme");
+
+   if(savedTheme === "light"){
+      document.body.classList.add("light-mode");
+      themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+   }
+});
   </script>
 </body>
 

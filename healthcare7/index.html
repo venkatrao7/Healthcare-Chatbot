@@ -3,27 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Chatbot</title>
+
+    <title>ThyroNet - AI Healthcare Assistant</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div id="app">
         <!-- Header -->
         <header>
-            <div class="logo">
-                <i class="fas fa-heartbeat"></i>
-                Cognitive Wellness and Medical Guidance
-            </div>
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-            <div class="profile">
-                <img src="profile.png" alt="User Profile" class="profile-pic">
-            </div>
-        </header>
+
+    <div class="logo">
+        <i class="fas fa-heartbeat"></i>
+        <span>Cognitive Wellness</span>
+    </div>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+
+        <button id="themeToggle" class="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button class="logout-btn" onclick="logout()">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+        </button>
+
+        <div class="profile">
+            <img src="profile.png" alt="User Profile" class="profile-pic">
+        </div>
+
+    </div>
+
+</header>
 
         <!-- Chat Box -->
         <div id="chat-box">
@@ -32,7 +60,7 @@
 
         <!-- Input Section -->
         <div id="input-section">
-            <input type="text" id="user-message" placeholder="Ask about diseases or symptoms...">
+            <input type="text" id="user-message" placeholder="Describe your symptoms or ask a health question...">
             <button id="send-button" title="Send Message"><i class="fas fa-paper-plane"></i></button>
         </div>
     </div>

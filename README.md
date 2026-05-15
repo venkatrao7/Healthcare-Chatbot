@@ -1,69 +1,216 @@
 ```md
-# Healthcare Chatbot 🤖💬
+## 🩺 Cognitive Wellness & Medical Guidance Chatbot
 
-## Overview  
-The **Healthcare Chatbot** is an AI-powered system, this system allows users to ask health-related questions or address concerns in real-me. By helping people prioritize their health, it can 
-identify symptoms, predict potential diseases, and offer guidance.
-This no-cost service provides users with immediate access to essential health information. In addition, the ecosystem includes features such as disease prediction, information on nearby hospitals and doctors, answers to health-related questions, and recommendations on precautions, exercise routines, and diet plans. Overall, this innovative system offers an efficient and accessible solution for understanding and managing personal health.
+An AI-powered healthcare chatbot designed to provide real-time medical guidance, symptom analysis, disease prediction, and wellness support through an interactive and user-friendly interface.
 
+---
 
-## Features  
-✅ Real-Time Health Guidance: Users can ask health-related questions and receive immediate, personalized responses without the need for scheduling appointments.  
-✅ Disease Prediction: The system leverages AI to analyze symptoms and predict potential diseases, allowing users to seek early treatment.  
-✅ Personalized Wellness Plans: Tailored recommendations for diet, exercise, and preventive care based on the user's health data.  
-✅ Nearby Hospitals and Doctors: A feature that helps users find medical professionals and facilities in their vicinity quickly and easily.  
-✅ Mental Health Support: Resources and guidance for managing stress, anxiety, and other mental health concerns, promoting holistic well-being.  
-✅ Cost-Free Access: Unlike many healthcare apps that require subscription fees, this system is free, making healthcare guidance more accessible to a wider audience.  
-✅ User-Friendly Interface: A seamless and intuitive interface that ensures ease of use for users across different age groups and technological backgrounds.  
+# 📌 Overview
 
-## Software and Hardware Requirements  
+The **Cognitive Wellness & Medical Guidance Chatbot** helps users access essential healthcare guidance instantly without needing appointments or paid subscriptions.
 
-### Software Requirements:  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js  
-- **Database:** MongoDB  
-- **Dev Tools:** GitHub, VS Code  
+Users can:
+- Ask health-related questions
+- Analyze symptoms
+- Get possible disease predictions
+- Explore treatment suggestions
+- Access wellness guidance
+- Book appointments
+- Find nearby hospitals and doctors
 
-### Hardware Requirements:  
-- **For Development:**  
-  - Processor: Intel i5 or equivalent  
-  - RAM: 8GB or more  
-  - Storage: 256GB SSD or higher  
-- **For Server Deployment:**  
-  - Processor: CPU  
-  - RAM: 16GB or higher  
-  - Storage: SSD (256GB or more)  
+The project combines modern web technologies with AI-based healthcare assistance to create an accessible and responsive healthcare support system.
 
-## How It Works  
-- **User:** This represents the individual interacting with the chatbot, including patients, healthcare providers, or administrators.  
-- **Ask Questions:** Users can pose questions about general health inquiries or specific medical concerns.  
-- **Receive Response:** The chatbot processes natural language, retrieves information, and generates responses, guiding users or directing them to relevant healthcare professionals.  
-- **FAQ Chatbot:** The chatbot includes an AI-powered FAQ system for quick and accurate responses.  
+---
 
-## Clone the Repository  
+# ✨ Features
+
+## 🤖 AI Healthcare Assistance
+Get real-time responses to healthcare-related questions and symptom analysis.
+
+## 🩺 Disease Prediction
+Analyze symptoms and identify possible health conditions using a healthcare dataset.
+
+## 🌙 Dark / Light Mode
+Modern responsive UI with theme switching support.
+
+## 🔐 Authentication System
+User registration, login, and logout functionality using MongoDB.
+
+## 📅 Appointment Booking
+Users can book appointments with hospitals and healthcare professionals.
+
+## 🏥 Nearby Hospital Information
+Quick access to hospital and doctor information.
+
+## 🧠 Mental Wellness Guidance
+Support and resources for stress, anxiety, and general wellness.
+
+## 📱 Responsive Design
+Works smoothly across desktop and mobile devices.
+
+## 💬 Interactive Chat Interface
+Typing animations, chatbot responses, auto-scroll, and modern chat bubbles.
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB Atlas
+
+## Tools & Platforms
+- VS Code
+- GitHub
+- Render
+
+---
+
+# ⚙️ Installation & Setup
+
+## Clone Repository
+
 ```bash
 git clone https://github.com/shilpan16/Healthcare-Chatbot.git
 cd Healthcare-Chatbot
 ```
 
-### Run the Project  
+---
+
+## Install Dependencies
+
 ```bash
-node server.js  # Start backend
+npm install
 ```
-## Chatbot Interface 🖥️  
-![image](https://github.com/user-attachments/assets/b1e27d49-4766-4c28-a198-3e34964e8bf0)
-![image](https://github.com/user-attachments/assets/66fc508f-e388-4ca3-a333-23cc5518249e)
-![image](https://github.com/user-attachments/assets/18c3bdee-4621-4083-b2e4-87734355643d)
-![image](https://github.com/user-attachments/assets/f0f7befb-e1dc-4f40-a913-d473b18c94bc)
 
+---
 
+## Configure Environment Variables
 
+Create a `.env` file in the root directory:
 
-## Future Enhancements 🚀  
-- Integration with **Wearable Devices** for real-time health tracking.  
-- Multi-Language Support using NLP.  
-- AI-based **Voice Interaction**.  
-
-## Contributing  
-Feel free to contribute! Fork the repo, create a new branch, and submit a PR.  
+```env
+MONGO_URI=your_mongodb_connection_string
 ```
+
+---
+
+## Run the Project
+
+```bash
+node server.js
+```
+
+or
+
+```bash
+npx nodemon server.js
+```
+
+---
+
+# 🚀 Project Workflow
+
+1. User logs into the platform
+2. User interacts with chatbot
+3. Chatbot analyzes symptoms/questions
+4. Healthcare dataset is searched
+5. Relevant response is generated
+6. Appointment booking guidance is provided if required
+
+---
+
+# 🖥️ Screenshots
+## Login Page
+
+![Login Page](screenshots/login.png)
+
+## Register Page
+
+![Register Page](screenshots/register.png)
+
+## Chatbot Interface
+
+![Chatbot](screenshots/chatbot.png)
+
+## About Page
+
+![About Page](screenshots/about.png)
+
+## Appointment Booking
+
+![Appointment](screenshots/appointment.png)
+---
+
+# 📂 Project Structure
+
+```bash
+Healthcare-Chatbot/
+│
+├── healthcare7/
+│   ├── index.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── style.css
+│   ├── script.js
+│   └── dataset.json
+│
+├── form.html
+├── register.html
+├── server.js
+├── package.json
+├── .env
+└── README.md
+```
+
+---
+
+# 🔮 Future Enhancements
+
+- AI Voice Assistant
+- Multi-language Support
+- Wearable Device Integration
+- Advanced NLP-based Conversations
+- Doctor Consultation Integration
+- Chat History & User Profiles
+
+---
+
+# 👨‍💻 Team Members
+
+- Neralla Shilpa
+- Velagapudi Venkat Rao
+- Taduri Lokesh
+- Bangla Umesh Reddy
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to GitHub
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is developed for educational and academic purposes.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐ on GitHub.
